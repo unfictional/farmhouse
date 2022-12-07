@@ -1,0 +1,76 @@
+
+<html>
+  <head>
+    <title>Science Fiction Mystery Story</title>
+	  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+     <style>
+body {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 4em;
+  color: #efefef;
+}
+
+p {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+input {
+  background-color: #212121;
+  color: #efefef;
+  border: 2px solid #7d7d7d;
+  width: 250px;
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.5s ease-in-out;
+}
+
+input:hover {
+  transform: scale(1.1);
+}
+    </style>
+  </head>
+  <body>
+  <h1>"The Curse of the Abandoned Farmhouse"</h1>
+  <svg width="500" height="400">
+  <rect x="0" y="0" width="500" height="400" fill="black" />
+  <polygon points="0,0 0,400 250,200" fill="white" />
+  <rect x="200" y="150" width="100" height="50" fill="gray" />
+  <rect x="230" y="175" width="30" height="25" fill="black" />
+  <rect x="220" y="200" width="50" height="50" fill="white" />
+  <rect x="20" y="50" width="100" height="50" fill="gray" />
+  <rect x="50" y="75" width="30" height="25" fill="black" />
+  <rect x="40" y="100" width="50" height="50" fill="white" />
+</svg>
+    <p>The sun was setting on the horizon as I drove into the small town. I had been searching for answers for weeks and finally, I thought I had found the answer.</p>
+    
+    <p>I pulled up to the old abandoned farmhouse and stepped out of the car. The once beautiful farmhouse was now in ruins, with broken windows and overgrown weeds. I was almost too scared to go in, but I was determined to find out what had happened here.</p>
+    
+    <p>I stepped inside and instantly felt a chill run down my spine. I could feel the presence of something sinister in the air. I slowly made my way through the house, searching for clues.</p>
+    
+    <p>Suddenly I heard a noise coming from upstairs. I froze in place, not sure if I should investigate or not. I knew I had to make a decision right away, so I either had to go upstairs to investigate the noise or stay put and wait to see what happened.</p>
+    
+    <form>
+      <input type="button" value="Go Upstairs" onclick="go_upstairs()">
+      <input type="button" value="Stay Put" onclick="stay_put()">
+    </form>
+    
+    <script>
+      function go_upstairs() {
+        window.location.href = "go-upstairs.html";
+      }
+      function stay_put() {
+        window.location.href = "stay-put.html";
+      }
+    </script>
+  </body>
+</html>
